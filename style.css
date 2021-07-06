@@ -5,11 +5,7 @@
 html{
     scroll-behavior: smooth;
 }
-.container{
-    width: 1200px;
-    margin: auto;
-    padding: 100px 0;
-}
+/*------------ typography----------- */
 h1,h2,h3,h4,a{
     color: #575757;
     font-weight: bold;
@@ -42,6 +38,13 @@ p{
     letter-spacing: 1px;
     margin-top:40px ;
 }
+
+/* ------------default style --------------- */
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
 .flex-area{
     display: flex;
 }
@@ -68,7 +71,23 @@ p{
     width: 50%;
     margin:0 auto 70px;
 }
-/* hero area style  */
+.box{
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -5px gray;
+    background: white;
+    margin-right: 5%;
+}
+.box:hover{
+    box-shadow: 0px 0px 25px -5px #0E88F1;
+}
+.box p{
+    margin-top: 20px;
+    color: gray;
+}
+
+/* ------------ hero area style ----------- */
+
 .hero-area .container{
     padding-top: 20px;
 }
@@ -111,7 +130,7 @@ li a:hover{
     width: 100%;
     height: auto;
 }
-/* About me area style  */
+/* ----------------About me area style-------------  */
 .about-area{
     background-image: url("images/Frame 57.jpg");
     background-repeat: no-repeat;
@@ -130,30 +149,17 @@ li a:hover{
 .about-area-right{
     padding: 100px 0;
 }
-/* My Recipies area style  */
-.box{
-    padding: 25px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 25px -5px gray;
-    background: white;
-    margin-right: 5%;
-}
+/* -------------- My Recipies area style--------------- */
 .recipie-area-blog .box:nth-child(3){
     margin-right: 0;
-}
-.box:hover{
-    box-shadow: 0px 0px 25px -5px #0E88F1;
 }
 .recipie-box img{
     width: 100%;
     border-radius: 20px;
+    height: 55%;
 }
 .recipie-box h4{
     margin-top: 40px;
-}
-.box p{
-    margin-top: 20px;
-    color: gray;
 }
 .recipie-area-blog p{
     padding-left: 15px;
@@ -161,7 +167,7 @@ li a:hover{
     border-image: linear-gradient(#0387F6 ,#13B8FB);
     border-image-slice: 1;
 }
-/* subscriber area style  */
+/* ------------subscriber area style ---------------- */
 .subscriber .container{
     padding-top: 0;
 }
@@ -172,7 +178,7 @@ li a:hover{
 .followers{
     width: 33%;
 }
-/* team area area style  */
+/* ---------------team area area style --------------- */
 .team{
     background-color: #EBF8FF;
     padding-bottom: 50px;
@@ -190,7 +196,7 @@ li a:hover{
     height: 100%;
     border-radius: 50%;
 }
-/* contact me area style  */
+/*----------------- contact me area style ---------------- */
 textarea,
 input{
     color: #000;
@@ -221,7 +227,7 @@ input[type=submit]{
     margin:auto ;
     margin-top: 20px;
 }
-/* footer area style  */
+/* --------------footer area style --------------- */
 .footer-area{
     text-align: center;
     background-color: #0B0D17;
