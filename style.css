@@ -16,8 +16,11 @@ h1,h3,h4,a{
 h1{
     font-size: 50px;
 }
-h3{
+h2{
     font-size: 40px;
+}
+h3{
+    font-size: 35px;
 }
 h4{
     font-size: 28px;
@@ -157,6 +160,12 @@ li a:hover{
 .recipie-box p{
     margin-top: 20px;
     color: gray;
+}
+.recipie-area-blog p{
+    padding-left: 15px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#0387F6 ,#13B8FB);
+    border-image-slice: 1;
 }
 /* subscriber area style  */
 .subscriber .container{
