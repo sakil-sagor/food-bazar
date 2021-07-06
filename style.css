@@ -1,12 +1,10 @@
 *{
     margin: 0;
     box-sizing: border-box;
-
 }
 html{
     scroll-behavior: smooth;
 }
-  
 .container{
     width: 1200px;
     margin: auto;
@@ -61,16 +59,15 @@ p{
     border-radius: 30px;
     background-image: linear-gradient(to right, #13B8FB , #0387F6);
     border: none;
-  }
+}
   .button:hover{
     background-image: linear-gradient(to right,#0387F6 ,#13B8FB);
-  }
+}
 .area-top{
     text-align: center;
     width: 50%;
     margin:0 auto 70px;
 }
-
 /* hero area style  */
 .hero-area .container{
     padding-top: 20px;
@@ -113,7 +110,7 @@ li a:hover{
 .image-area img{
     width: 100%;
     height: auto;
-  }
+}
 /* About me area style  */
 .about-area{
     background-image: url("images/Frame 57.jpg");
