@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+h1,h3,h4,a{
+    color: #575757;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 28px;
+}
+span{
+    color: #3bb4ec;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #575757;
+}
+p{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top:40px ;
+}
+.flex-area{
+    display: flex;
+}
+.left-area{
+    width: 50%;
+}
+.right-area{
+    width: 50%;
+}
+.button{
+    color: white;
+    margin-top:40px ;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #13B8FB , #0387F6);
+    border: none;
+  }
+  .button:hover{
+    background-image: linear-gradient(to right,#0387F6 ,#13B8FB);
+  }
+
+/* hero area style  */
+.hero-area .container{
+    padding-top: 20px;
+}
+.hero-area-top{
+   box-shadow: 0 6px 8px -7px #0E88F1;
+   padding-bottom: 10px; 
+}
+.logo-area{
+    width: 40%;
+}
+.menu-area{
+    width: 60%;
+}
+.logo-area h1{
+    font-size: 60px;
+    font-style: italic;
+    color: #3bb4ec;
+    cursor: pointer;
+}
+ul{
+    float: right;
+    margin-top: 30px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    padding: 10px 10px;
+}
+li a:hover{
+    color: #0388F6;
+}
+.hero-area-content{
+    padding-top:50px ;
+}
+.hero-area-content-left{
+    margin-top: 200px;
+}
+.image-area img{
+    width: 100%;
+    height: auto;
+  }
+/* About me area style  */
+.about-area{
+    max-height: 600px;
+    background-image: url("images/Frame 57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-area .container{
+    padding-bottom: 0;
+}
+.about-area-left{
+    background-image: url("images/Person Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding-bottom: 100px;
+}
+.about-area-image img{
+    text-align: center;
+    width: 50%;
+    margin-bottom: -4px;
+}
+.about-area-right{
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+/* My Recipies area style  */
+.area-top{
+    text-align: center;
+    width: 50%;
+    margin:0 auto 70px;
+}
+.recipie-box{
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px -5px gray;
+    background: white;
+    margin-right: 5%;
+}
+.recipie-area-blog .recipie-box:nth-child(3){
+    margin-right: 0;
+}
+.recipie-box:hover{
+    box-shadow: 0px 0px 25px -5px #0E88F1;
+}
+.recipie-box img{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipie-box h4{
+    margin-top: 40px;
+}
+.recipie-box p{
+    margin-top: 20px;
+    color: gray;
+}
+/* subscriber area style  */
+.subscriber .container{
+    padding-top: 0;
+}
+.all-box{
+    margin-right: 0;
+    text-align: center;
+}
+.box{
+    width: 33%;
+}
+/* team area area style  */
+.team{
+    background-color: #EBF8FF;
+}
+.team-extra{
+   width: 80%;
+   margin: 0 auto;
+   padding-bottom: 50px;
+}
+.team-box .box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    border-radius: 150px;
+    
+}
+.team-box .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+}
+
+/* contact me area style  */
+.contact{
+    background: white;
+    /* background-image:linear-gradient(#3bb4eca3,#3bb4eca3),url("images/bg2.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+textarea,
+input{
+    color: #575757;
+    width: 100%;
+    padding: 15px 15px 15px 0;
+    margin: 20px 0;
+    border: none;
+    background: rgba(250,250,250,0.1);
+    background: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #0E88F1;
+}
+textarea:focus-visible,
+input:focus-visible{ 
+    border: 1px solid white;
+}
+input:first-child{
+    width: 48%;
+    margin-right: 3.5%;
+}
+input:nth-child(2){
+    width: 48%;
+}
+input[type=submit]{
+    width: 15%;
+    display: block;
+    margin:auto ;
+    margin-top: 20px;
+}
+/* footer area style  */
+.footer-area{
+    text-align: center;
+    background-color: #0B0D17;
+}
+.footer-area .container{
+    padding-top: 50px;
+}
+.footer-area p{
+    color: white;
+}
